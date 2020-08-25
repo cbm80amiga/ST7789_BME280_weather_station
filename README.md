@@ -14,8 +14,12 @@ https://youtu.be/MBehHqti35w
 - software generated 7-segment font saves a lot of memory necessary for high resolution font
 - BME280 is connected via I2C
 - ST7789 display is connected via SPI
-- required: DigiFont and RREFont libraries (available on my GitHub) and Adafruit_BME280
-- in case of compatibility issues use Arduino IDE 1.6.5
+
+## Notes
+
+- Required: DigiFont and RREFont libraries (available on my GitHub) and Adafruit_BME280 
+- In case of compatibility issues use Arduino IDE 1.6.5 
+- Use only ENABLE_RRE_16B = 1 in RREFont.h, other ENABLEs should be 0 to save memory
 
 If you find it useful and want to buy me a coffee or a beer:
 
